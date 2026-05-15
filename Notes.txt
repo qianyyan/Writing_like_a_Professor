@@ -1,0 +1,5 @@
+pip install -r requirements.txt
+$env:ANTHROPIC_API_KEY = "sk-ant-..."     # PowerShell；bash 用 export
+
+python paper_polish.py build-index         # Only run first time
+python paper_polish.py polish --input my_draft.txt --output polished.txt
