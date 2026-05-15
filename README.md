@@ -1,4 +1,4 @@
-# paper_polish — Academic Paragraph Polisher Based on Professor Papers
+# Academic Paragraph Polisher Based on Professor Papers
 
 A lightweight RAG-based tool: it extracts paragraphs from the PDF papers of Prof. Yunmi Park, builds a vector index, and retrieves the most similar passages from those papers as "style references" each time you polish a paragraph — sending them together to Claude so it can rewrite your text in the academic writing style of these two professors.
 
