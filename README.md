@@ -1,6 +1,6 @@
 # Academic Paragraph Polisher Based on Professor Papers
 
-A lightweight RAG-based tool: it extracts paragraphs from the PDF papers of Prof. Yunmi Park, builds a vector index, and retrieves the most similar passages from those papers as "style references" each time you polish a paragraph — sending them together to Claude so it can rewrite your text in the academic writing style of these two professors.
+A lightweight RAG-based tool: it extracts paragraphs from the PDF papers of Professor in urban planning filed, builds a vector index, and retrieves the most similar passages from those papers as "style references" each time you polish a paragraph — sending them together to Claude so it can rewrite your text in the academic writing style of these two professors.
 
 > Note: This is not genuine "fine-tuning." Real model training requires GPUs and tens of gigabytes of data, which would be neither cost-effective nor appropriate for just a handful of papers. RAG is a better trade-off between quality and cost.
 
